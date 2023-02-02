@@ -52,6 +52,9 @@ allprojects {
         // mockserver
         integrationImplementation("org.mock-server:mockserver-client-java:5.14.0")
         integrationImplementation("org.mock-server:mockserver-netty:5.14.0")
+
+        // logging
+        implementation("io.github.microutils:kotlin-logging:2.1.21")
     }
 
     tasks.withType<KotlinCompile> {
