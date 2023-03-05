@@ -1,4 +1,4 @@
-package io.dori.utils
+package io.dori.shared.utils
 
 import mu.KLogger
 import mu.KotlinLogging

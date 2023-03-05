@@ -1,4 +1,4 @@
-package io.dori
+package io.dori.api.controller
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
