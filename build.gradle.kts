@@ -46,6 +46,9 @@ allprojects {
         testImplementation("io.kotest:kotest-property:5.3.0")
         testImplementation("io.kotest.extensions:kotest-extensions-spring:1.1.1")
 
+        // fixture monkey
+        testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter-kotlin:0.4.12")
+
         // mockk
         testImplementation("io.mockk:mockk:1.12.0")
 
