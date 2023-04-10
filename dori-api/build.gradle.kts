@@ -1,5 +1,5 @@
 dependencies {
-    implementation(project(":dori-domain"))
+    implementation(project(":dori-application"))
     implementation(project(":dori-shared"))
 
     implementation("org.springframework.boot:spring-boot-starter-web")
