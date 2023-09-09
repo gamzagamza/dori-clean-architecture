@@ -1,8 +1,8 @@
 rootProject.name = "dori"
 include(
-    "dori-api",
-    "dori-domain",
-    "dori-http",
-    "dori-datastore",
-    "dori-shared"
+    "api",
+    "domain",
+    "http",
+    "datastore",
+    "shared"
 )

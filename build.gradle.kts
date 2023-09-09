@@ -13,7 +13,6 @@ plugins {
     kotlin("plugin.jpa") version "1.7.10" apply false
 }
 
-
 allprojects {
     apply(plugin = "io.spring.dependency-management")
     apply(plugin = "com.coditory.integration-test")
@@ -70,6 +69,7 @@ allprojects {
     configure<io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension> {
         imports {
             mavenBom("org.springframework.boot:spring-boot-dependencies:2.7.8")
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:2021.0.0")
         }
     }
 
